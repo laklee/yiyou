@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+body{
+	font:font:12px/1.5em Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b\4f53,sans-serif;
+	background-color: #fff;
+	color: #8e8d8d;
+} 
+*{
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0px;
+	vertical-align: middle;
+}
+.center{
+	margin: 0 auto;
+	width: 1060px;
+}
+
+/*顶部登录注册*/
+
+#yy-shortcut{
+	width: 100%;
+	min-width: 1060px;
+	height: 30px;
+	background-color: #f1f1f1;
+	color: #838383;
+}
+#yy-shortcut .login{
+	height: 30px;
+	line-height: 30px;
+	font-size: 11px;
+}
+.login .login-left{
+	width: 210px;
+	height: 30px;
+	background: url(../images/bottom.png) no-repeat center;
+	background-size: 10px 10px;
+	background-position: 98% 50%;
+	float: left;
+}
+.login .login-left i{
+	margin-left: 25px;
+	letter-spacing: 1px;
+}
+.login .login-left b{
+	color: #349701;	
+}
+.login .login-right {
+	float: right;
+}
+.login .login-right ul{
+	height: 30px;
+	line-height: 30px;
+}
+.login .login-right ul li {
+	float: left;
+	margin-left: 15px;
+}
+.login .login-right ul li .register{
+	margin-left: 24px;
+	color: #349701;	
+}
+.login-right .li-public{
+	width: 60px;
+	background: url(../images/bottom.png) no-repeat center;
+	background-size: 10px 10px;
+	background-position: 95% 50%;
+}
+.login .login-right em{
+	display: inline-block;
+	width: 14px;
+	height: 11px;
+	margin-right: 2px;
+	background: url(../images/car.png) no-repeat center;
+}
+.login .login-right .li-last{
+	width: 80px;
+	background: url(../images/bottom.png) no-repeat center;
+	background-size: 10px 10px;
+	background-position: 90% 50%;
+}
+.login .login-right .li-last i{
+	background: url(../images/login_menu.png) no-repeat center;
+	display: inline-block;
+	width: 13px;
+	height: 11px;
+	margin-right: 2px;
+}
+.login .login-right a{
+	color: #838383; 
+} 
+.login .login-right a:link,.login .login-right a:visited{
+	color: #838383;
+}
+.login .login-right a:hover{
+	color: red;
+}
+.login .login-right .register:hover{
+	color: red;
+}
+/*.null{
+	clear: both;
+}*/
+
+
+/*页面尾部*/
+#yy-page-footer{
+	width: 100%;
+	min-width: 1060px;
+}
+#yy-page-footer .footer-top{
+	width: 100%;
+	min-width: 1060px;
+	height: 100px;
+	background-color: #e5e5e5;
+}
+.footer-top .footer-top-wrap{
+	
+	height: 100px;
+	
+}
+.footer-top .footer-top-wrap ul{
+	float: right;
+	width: 1060px;
+	height: 100px;
+	display: table;
+	line-height: 100px;
+}
+.footer-top-wrap ul li{
+	text-align: center;
+	display: inline;
+	padding: 21px 25px 21px 60px;
+}
+.footer-top-wrap .top1{
+	background: url(../images/top1.png) no-repeat 0px center;
+}
+.footer-top-wrap .top2{
+	background: url(../images/top2.png) no-repeat 0px center;
+}
+.footer-top-wrap .top3{
+	background: url(../images/top3.png) no-repeat 0px center;
+}
+.footer-top-wrap .top4{
+	background: url(../images/top4.png) no-repeat 0px center;
+}
+.footer-top-wrap .top5{
+	background: url(../images/top5.png) no-repeat 0px center;
+}
+.footer-top-wrap .top5 a{
+	border: none;
+}
+.footer-top-wrap ul li a{
+	color: #717171;
+	font-size: 20px;
+	padding:17px 20px; 
+	border-right: 1px dashed #717171;
+}
+.footer-center{
+	height: 195px;
+	border-bottom: 1px solid #d3d3d3;
+	padding-top: 20px;
+}
+.footer-center dl{
+	display: inline-block;
+	width: 150px;
+	height: 174px;
+	vertical-align: top;
+	
+}
+.footer-center dl dt{
+	font-size: 14px;
+	font-weight: bold;
+	color: #5b5b5b;
+	margin-bottom: 10px;
+} 
+.footer-center dl dd a{
+	font-size: 14px;
+	color: #7d7d7d;
+}
+.footer-center img{
+	width: 95px;
+	height: 115px;
+}
+.footer-bottom{
+	height: 75px;
+	text-align: center;
+}
+.footer-bottom .link{
+	width: 1060px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.footer-bottom .link ul{
+	text-align: center;
+	height: 40px;
+	width: 700px;
+	margin: 0 auto;
+}
+.footer-bottom .link ul li{
+	float: left;
+	text-align: center;
+	height: 40px;
+	margin-left: 
+}
+.footer-bottom .link ul li:last-child a{
+	border: none;
+}
+.footer-bottom .link a{
+	color: #818181;
+	font-size: 12px;
+	padding-right: 17px;
+	padding-left: 17px;
+	border-right: 1px dashed #818181;
+}
+.footer-bottom span{
+	font-size: 12px;
+	word-spacing: 1px;
+}
